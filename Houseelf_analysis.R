@@ -1,4 +1,4 @@
-##Data analysis
+##Data analysis-----
 download.file("http://www.datacarpentry.org/semester-biology/data/houseelf-earlength-dna-data.csv",
               "houseelf-earlength-dna-data.csv")
 #import the data
@@ -34,6 +34,6 @@ granger_summary <- read.csv("granger_analysis.csv")  %>%
   summarise(mean_GC_content = mean(GC_content))
 granger_summary
 
-#1)-- Set Up Git --
-
-#2)
+##Commit multiple files----
+file.rename(from = "houseelf-earlength-dna-data.csv",
+            to = "houseelf-earlength-dna-data_1.csv")
